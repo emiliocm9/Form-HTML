@@ -1,0 +1,290 @@
+body {
+  background-color: rgb(236, 238, 241);
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 0;
+}
+
+.color-white {
+  color: white;
+}
+
+.bordercolor {
+  border-color: #c1c5c8;
+}
+
+.bordercolor2 {
+  border-color: #c7c7c7;
+}
+
+.color-grey {
+  color: #505050;
+}
+
+a {
+  color: #0077c5;
+}
+
+nav {
+  flex-direction: row-reverse;
+  height: 54px;
+}
+
+nav,
+.flex-column,
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.images-class {
+  width: 22px;
+}
+
+.justify-content {
+  justify-content: center;
+}
+
+.intuit {
+  height: 35px;
+}
+
+.logos-text {
+  margin-left: 4px;
+  font-size: 18px;
+  color: #8c8c92;
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+  margin-right: 6px;
+}
+
+.margin-bottom {
+  margin-bottom: 16px;
+}
+
+.navSignin {
+  height: 54px;
+  font-size: 12px;
+  margin-right: 23px;
+}
+
+fieldset button img {
+  width: 22px;
+  height: 22px;
+}
+
+.navSignin img {
+  height: 20px;
+}
+
+.navForgotPass {
+  margin-right: 10px;
+  align-items: flex-end;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 12px;
+  padding-top: 0;
+}
+
+footer a {
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.navForgotPass a {
+  text-decoration: none;
+}
+
+.forgotPass {
+  margin-bottom: 5px;
+}
+
+.background-color-blue {
+  background-color: #0077c5;
+}
+
+fieldset button {
+  width: 312px;
+  margin: 30px 17px;
+  border-radius: 5px;
+  height: 45px;
+  justify-content: center;
+  border: none;
+}
+
+.navSignin button {
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  border: solid;
+  border-color: black;
+  border-width: 0.2px;
+  justify-content: space-around;
+}
+
+main {
+  align-content: center;
+}
+
+.mainDiv {
+  width: 400px;
+  margin-top: 30px;
+}
+
+form {
+  border: none;
+}
+
+fieldset {
+  border: solid;
+  border-width: 1px 1px 0 1px;
+  background-color: white;
+}
+
+header {
+  text-align: center;
+}
+
+header h2 {
+  font-weight: lighter;
+}
+
+header span {
+  font-size: 14px;
+}
+
+.inputFormat {
+  margin: 17px;
+  font-size: 14px;
+}
+
+fieldset button span {
+  margin-left: 5px;
+  font-size: 16.5px;
+}
+
+.inputFormat span {
+  font-size: 9.5px;
+  margin-top: 6px;
+}
+
+.inputFormat label {
+  margin: 14px 0;
+}
+
+.inputFormat input {
+  height: 31px;
+  font-size: 17px;
+  width: 308px;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 0.5px;
+  padding-left: 5px;
+}
+
+.inputFormatPass input {
+  height: 31px;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 0.5px;
+  width: 278px;
+  font-size: 18px;
+  padding-left: 5px;
+}
+
+.inputFormat input:focus {
+  -webkit-box-shadow: 2px 1px 10px 1px rgba(117, 185, 240, 1);
+  -moz-box-shadow: 2px 1px 10px 1px rgba(117, 185, 240, 1);
+  box-shadow: 2px 1px 10px 1px rgba(117, 185, 240, 1);
+}
+
+.password {
+  background: url(https://img.icons8.com/cotton/64/000000/unlock-2--v3.png) no-repeat;
+  background-size: 21px;
+  background-position: 288px;
+  padding-right: 30px;
+  height: 25px;
+}
+
+.inputFormatPass label {
+  margin: 14px 0;
+}
+
+.inputFormatPass input:focus {
+  -webkit-box-shadow: 2px 1px 10px 1px rgba(117, 185, 240, 1);
+  -moz-box-shadow: 2px 1px 10px 1px rgba(117, 185, 240, 1);
+  box-shadow: 2px 1px 10px 1px rgba(117, 185, 240, 1);
+}
+
+.inputFormatPass {
+  margin: 17px;
+  font-size: 14px;
+}
+
+.termsandcon {
+  text-align: center;
+  font-style: italic;
+  font-size: 11.5px;
+  color: #757575;
+  line-height: 1.25rem;
+}
+
+.termsandcon a {
+  text-decoration: none;
+}
+
+.captcha {
+  font-size: 9.5px;
+  color: #8d9096;
+  background-color: #eceef1;
+  height: 46px;
+  width: 372px;
+  text-align: center;
+  border-style: solid;
+  border-width: 0 1px 1px 1px;
+}
+
+.captcha a {
+  text-decoration: none;
+}
+
+footer p {
+  margin-top: 0;
+}
+
+.captcha p {
+  margin-top: 16.5px;
+}
+
+footer {
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
+  height: 90px;
+  font-size: 12px;
+  line-height: 1.25rem;
+}
+
+.anchor {
+  margin-bottom: 0;
+}
